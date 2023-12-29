@@ -2,7 +2,7 @@ import EditEventForm from "@/components/EditEventForm";
 
 const getEventById = async (id) => {
     try {
-    const res = await fetch(`http://localhost:3000/api/events/${id}`, {
+    const res = await fetch(`https://aesthetic-souffle-c21755.netlify.app/api/events/${id}`, {
         cache: "no-store",
     });
 
