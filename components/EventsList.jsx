@@ -4,7 +4,7 @@ import { HiPencilAlt } from "react-icons/hi";
 
 const getEvent = async() => {
     try{
-        const res = await fetch("http://localhost:3000/api/events", {
+        const res = await fetch("https://aesthetic-souffle-c21755.netlify.app/api/events", {
             cache: "no-store",
         });
         if(!res.ok){

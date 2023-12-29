@@ -24,7 +24,7 @@ export default function AddEvent( ) {
         }
 
         try{
-            const res = await fetch("http://localhost:3000/api/events",{
+            const res = await fetch("https://aesthetic-souffle-c21755.netlify.app/api/events",{
                 method: "POST",
                 headers: {
                     "Content-type":"application/json"

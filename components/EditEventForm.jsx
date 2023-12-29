@@ -19,7 +19,7 @@ export default function EditEventForm({ id , title, game, location, date, regist
     e.preventDefault();
 
     try {
-        const res = await fetch(`http://localhost:3000/api/events/${id}`, {
+        const res = await fetch(`https://aesthetic-souffle-c21755.netlify.app/api/events/${id}`, {
           method: "PUT",
           headers: {
             "Content-type": "application/json",

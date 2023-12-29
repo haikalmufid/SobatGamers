@@ -9,7 +9,7 @@ export default function RemoveBtn({ id }) {
         const confirmed = confirm('Are you sure?');
 
         if (confirmed) {
-            const res = await fetch(`http://localhost:3000/api/events?id=${id}`, {
+            const res = await fetch(`https://aesthetic-souffle-c21755.netlify.app/api/events?id=${id}`, {
                 method:"DELETE",
             });
             
